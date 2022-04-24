@@ -1,5 +1,14 @@
-<?php include('https://github.com/rodrimdz/rmendozaveirana/blob/main/header.php') ?>
-
+<?php include('header.php') ?>
+  <!-- Page header with logo and tagline-->
+        <header class="py-5 bg-light border-bottom mb-7">
+            <div class="container">
+                <div class="text-center my-5">
+                    <h1 class="fw-bolder">Welcome to my Blog!</h1>
+                    <p class="lead mb-0">Here you can see some of my projects</p>
+                </div>
+            </div>
+        </header>
+        <!-- Page content-->
         
         <div class="container">
             <div class="row">
@@ -12,7 +21,7 @@
                             <div class="small text-muted">April 23, 2022</div>
                             <h2 class="card-title">Hourly Energy Consumption</h2>
                             <p class="card-text">Over 10 years of hourly energy consumption data from PJM in Megawatts. From October 2004 to August 2018. Develop an analysis of the data about consumption and answer some questions!</p>
-                            <a class="btn btn-primary" href="./HEC.html">Read more →</a>
+                            <a class="btn btn-primary" href="./HEC.php">Read more →</a>
                         </div>
                     </div>
                     <!-- Nested row for non-featured blog posts-->
