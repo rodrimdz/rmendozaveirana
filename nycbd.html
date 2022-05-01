@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Rodrigo Mendoza Veirana</title>
+        <!-- Favicon-->
+        <link rel="icon"  href="bar-chart-line-fill.svg" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">Rodrigo Mendoza Veirana</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+ 
+<div class="container">
+            <div class="row" >
+
+        
+                <!-- Blog entries-->
+
+                <div class="text-center" >
+                    <h2 class="card-title" ><br>New York City - Buildings Database</h2><br>
+                
+                </div>
+                <div  >
+                            <p class="card-text">An analysis of NY City Buildings, data taken from PLUTO.<br>
+                            PLUTO is a master record of the locations and characteristics of buildings in New York City. It’s published by the New York City Department of City Planning on an approximately quarterly-to-half-yearly basis, and is one of the more important datasets for civic analysis in New York City. Data is available until year 2016.<br>
+                            Made with Power BI and DAX. <br></p>
+                                <a class="btn btn-info" target="_blank" href="https://github.com/rodrimdz/NYbuildings">Source code in my Github</a><br>  <br>   
+                                <a class="btn btn-info" target="_blank" href="https://www.kaggle.com/datasets/new-york-city/nyc-buildings">Data source from Kaggle</a> <br> <br>
+                </div>
+                <div  >
+                            <p class="card-text">Note: some rows had empty values in columns about number of floors, assess total, year, etc. This empty values doesn't changes averages values.<br>
+                             I highly recommend that you download the pbix file and run it on your computer so you can change the filters and see the results for yourself.<br><br></p>
+                </div>
+                <div class="col-lg-11">
+                    <h3 class="card-title" >Introduction</h3>
+                    <p class="card-text">
+
+                    At a first glance we have data for the 5 main neighborhoods in NY, Manhattan (MN), Queen Island (QI), State Island (SI), Brooklyn (BK) and Bronx (BX).<br>
+                    In the Dashboard we have the information of a pie chart of the number of buildings for each neighborhood, another chart where it is differentiated what type of building is in each neighborhood, another on what type of place it is located, another on the average number of floors of buildings by year and by neighborhood, and finally a map showing the density of buildings according to the size of the gray dots.<br>
+                    Also, there are a indicators of average values as Year of built, Assess Total, Number of floors and M2 total.<br>
+                    As a first observation we can see that the number of floors of buildings in MN has been increasing since the early 1900s.
+                
+                    <img src="https://i.ibb.co/ThqQ9qh/main-page-0001.jpg" width="100%"> </p><br>
+                    <!-- Featured blog post-->
+                    
+                    
+                </div>
+
+                <div class="col-lg-11">
+                    <h3 class="card-title" >Queens</h3>
+                    <p class="card-text">
+                    For example, if a filter is applied to the QN data, we will have some important points. The average price of buildings is substantially lower than in the rest of NY, the same happens with the m2 of each building, both data are related since It is assumed that the greater the m2, the higher the price. Therefore, we can say that QN has smaller and worse valued buildings than the NY average.
+                    
+                    <img src="https://i.ibb.co/qR2V1Yz/solo-qn-page-0001.jpg" width="100%"> </p><br>
+                    <!-- Featured blog post-->
+                    
+                    
+                </div>
+
+                 <div class="col-lg-11">
+                    <h3 class="card-title" >Tallest buildings</h3>
+                    <p class="card-text">
+                    If we apply a filter to tall buildings, a significant value like 15 floors, we see that most are in MN and very few in other neighborhoods, so if we wanted to see tall skyscrapers in NY, you should definitely go to MN. Also, as expected, these buildings are much more expensive on average than in the rest of NY and also more modern.
+                    
+                    <img src="https://i.ibb.co/nj7yBJC/mas-de-15-pisos-page-0001.jpg" width="100%"> </p><br>
+                    <!-- Featured blog post-->
+                    
+                    
+                </div>
+
+                <div class="col-lg-11">
+                    <h3 class="card-title" >Parks</h3>
+                    <p class="card-text">
+                    It is also possible to filter other types of buildings such as parks and recreational places, we see that although there is more in SI, they are fairly well distributed in all neighborhoods, therefore we can say that we can find parks in all neighborhoods
+                    
+                    <img src="https://i.ibb.co/z7vv5Dv/parks-page-0001.jpg" width="100%"> </p><br>
+                    <!-- Featured blog post-->
+                    
+                    
+                </div>
+
+                <div class="col-lg-11">
+                    <h3 class="card-title" >Theaters</h3>
+                    <p class="card-text">
+                    As for theaters, we apply the filter and see that most are in MN and BK, in fact if we look at the map, they are grouped in the same area and very few in the surroundings. Also, the average year of construction is lower than the general one for NY, therefore most of them are quite old.
+                    
+                    <img src="https://i.ibb.co/HPZkxzH/teatros-page-0001.jpg" width="100%"> </p><br>
+                    <!-- Featured blog post-->
+                    
+                    
+                </div>
+
+                <div class="col-lg-11">
+                    <h3 class="card-title" >Old buildings</h3>
+                    <p class="card-text">
+                    If we wanted to see data about old buildings, for example between 1850 and 1910, it can be seen that most are in BK and concentrated in the same area, and on average they are cheaper than the rest of NY.
+                    
+                    <img src="https://i.ibb.co/dgdyx72/viejos-page-0001.jpg" width="100%"> </p><br>
+                    <!-- Featured blog post-->
+                    
+                    
+                </div>
+
+                <div class="col-lg-11">
+                    <h3 class="card-title" >Modern Hotels</h3>
+                    <p class="card-text">
+                    For example, if we want to go to a hotel in NY and also that it is modern, an example of construction after 2000. We see that there are very few in BX and SI, they also have many floors and their total assess is much higher than the rest.
+                    
+                    <img src="https://i.ibb.co/BTTNbvc/hoteles-nuevos-page-0001.jpg" width="100%"> </p><br>
+                    <!-- Featured blog post-->
+                    
+                    
+                </div>
+
+                 <div class="col-lg-11">
+                    <h3 class="card-title" >Offices</h3>
+                    <p class="card-text">
+                    Office buildings are distributed throughout NY with a higher concentration in MN, and although they are relatively tall, they are not as tall as modern hotels for example.
+                    
+                    <img src="https://i.ibb.co/6wk9LGk/offices-page-0001.jpg" width="100%"> </p><br>
+                    <!-- Featured blog post-->
+                    
+                    
+                </div>
+
+                <div class="col-lg-11">
+                    <h3 class="card-title" >Family buildings</h3>
+                    <p class="card-text">
+                    The types of buildings that are for family accommodation are practically not found in MN, but the few that exist are much higher than the others.
+                    
+                    <img src="https://i.ibb.co/xLDbWkz/casas-familiares-page-0001.jpg" width="100%"> </p><br>
+                    <!-- Featured blog post-->
+                    
+                </div>
+
+                 <div class="col-lg-11">
+                    <h3 class="card-title" >Conclusion</h3>
+                                        
+                    <p class="card-text">
+                    As a conclusion, we can conclude from the analysis carried out that we can observe clear patterns in the types and attributes of buildings in NY, for example in MN we have seen that there are tall, expensive buildings, and few homes for families. Old and Small buildings are found in BK. Small and cheap family housing buildings are found in QN.<br>
+                    Lastly, we also see in several analyzes that the average year of construction is around 1941, therefore we can ensure that there was a construction boom at that time.</p><br><br>
+                </div>
+                <!-- Side widgets-->
+               
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark text-center ">
+            <div class="container"><a class="btn btn-outline-light btn-floating m-1 " target="_blank" href="https://www.linkedin.com/in/rodrigo-mendoza-veirana/" role="button"><i class="bi bi-linkedin"></i></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/rodrimdz/" role="button"><i class="bi bi-github"></i></a>
+            </div>    
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
