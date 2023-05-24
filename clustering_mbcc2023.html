@@ -40,10 +40,13 @@
                 
                 </div>
                 <div  >
-                            <p class="card-text">Perhaps this is the job that I have enjoyed the most because I brought together my two passions, craft beer and data. A clustering of the 786 different beers (and other drinks) from the MBCC 2023 made by Mikkeller, the famous Danish brewery.<br>
-                            I have collected the data from <a target="_blank" href="https://untappd.com/v/mikkeller-beer-celebration-copenhagen/11868436">Untappd</a> where all the data of the beers of the 4 sessions are found, with Power BI I have consolidated everything in a single csv file.<br>
-                            This clustering begins with an exploratory analysis of the data, then we apply the K-means algorithm with the elbow method and the silhouettes to determine how many clusters are optimal for this analysis.<br>   
-                            Available is the csv with the raw data, all the Python code and the csv with the clustering result.<br><br>
+                            <p class="card-text"><i>Perhaps this is the job that I have enjoyed the most because I brought together my two passions, craft beer and data. </i><br><br>
+                            The goal of this work is implement the clustering of the 786 different beers (and other drinks) from the MBCC 2023 made by Mikkeller, the famous Danish brewery.<br>
+                            
+                            The clustering begins with an exploratory data analysis, then apply the K-means algorithm with The Elbow Method and The Silhouettes to define the optimal number of clusters.<br><br>
+                            
+                            <b>How I got the data?</b><br>The beer data of the 4 sessions has been collected from <a target="_blank" href="https://untappd.com/v/mikkeller-beer-celebration-copenhagen/11868436">Untappd</a>, using Power BI consolidated all data in a single csv file.<br><br>
+                            Available is the csv file with the raw data, all the Python code and the csv with the clustering result.<br><br>
                             See below final words about the clustering.<br><br>
                             </p>
                                 <a class="btn btn-info" target="_blank" href="https://github.com/rodrimdz/MBCC2023/blob/main/MBCC.csv">Data source</a> <br> <br>
@@ -54,14 +57,15 @@
                 </div>
                 <div class="col-lg-11">
                     
-                    <img src="https://i.ibb.co/qjVxkgw/Untitled.png" width="100%"> <br><br><br><br>
+    
+                    <img src="https://i.ibb.co/9tB21y4/Clustering-MBCC2023-page-0001.png" width="100%"> <br><br><br><br>
                     <!-- Featured blog post-->
                     
                     
                 </div>
                 <div>
-                    <p class="card-text">Analyzing how the clusters are, we can say that we have cluster 0 for light beers and those below rating 4, such as Pilsners and Lagers. Cluster 1 for alcoholic beers such as Imperial stouts, Barleywines and Meads. Cluster 2 mostly for Wild ales, Lambics, Belgians, Ciders. For Sours cluster 3, except one that has 13.3 Alc that falls in cluster 1. Finally cluster 4 for ipas that have averages ratings.<br>
-                    Of course there may be other clustering, for this we can change the seed and run the algorithm several more times and see if we find any other, for example perhaps at the request of the organization, they want to classify into 3 clusters, it is possible to try running the algorithm to see if there is any possible classification, although it is likely to be less optimal than the solution presented.<br><br><br>
+                    <p class="card-text">After the exploratory data analysis, the clustering was defined as follows, the cluster 0 for light beers and those below rating 4, such as Pilsners and Lagers. Cluster 1 for alcoholic beers such as Imperial stouts, Barleywines and Meads. Cluster 2 mostly for Wild ales, Lambics, Belgians, Farmhouse. For Sours cluster 3, except one that has 13.3 % Alc that falls in cluster 1. Finally cluster 4 for Ipas that has averages ratings.<br><br>
+                    Of course there may be other clustering, is possible to change the seed and run the algorithm several more times to find any other, for example perhaps at the request of the organization, they want to classify into 3 clusters, it is possible to try running the algorithm to see if there is any possible classification, although it is likely to be less optimal than the solution presented.<br><br><br>
                             </p>
                 </div>
                 <!-- Side widgets-->
